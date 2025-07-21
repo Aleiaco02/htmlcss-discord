@@ -3,85 +3,140 @@
     margin: 0;
     box-sizing: border-box;
     padding: 0px;
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: black;
 }
 
 /* regole header parte 3 colonne */
 .container-nav{
-    background-color: rgb(142, 201, 255);
+    background-color: rgb(37 94 233);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    align-items: flex-end;
+    border: none;
     /* DEBUG */
-    height: 65px;
+    /* height: 65px; */
 }
 
 .logo{
-    background-color: orange;
+    /* background-color: orange; */
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-left: 250px;
-    padding-left: 15px;
+    padding-top: 1.5%;
+    padding-left: 7%;
+    /* margin-left: 250px;
     /* DEBUG */
-    height: 70%;
+    /* height: 70%;
     width: 17%;
-    border: 2px dashed black;
+    border: 2px dashed black; */
 }
 
 
 .link{
-    background-color: orange;
-    border: 2px dashed black;
+    /* background-color: orange;
+    border: 2px dashed black; */
+    padding-bottom: 7px;
     list-style-type: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     /* DEBUG */
-    height: 70%;
-    width: 50%;
+    /* height: 70%;
+    width: 50%; */
 }
 
 .link li a{
-    padding: 15px;
-    text-decoration: none;
+    padding: 25px;
+    text-decoration:none;
+    color: white;
+
 }
 
 .login{
-    background-color: orange;
+    /* background-color: orange; */
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-right: 250px;
-    padding-right: 15px;
+    margin-right: 14%;
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+    /* margin-right: 250px;
+    padding-right: 15px; */
     /* DEBUG */
-    height: 70%;
+    /* height: 70%;
     width: 17%;
-    border: 2px dashed black;
+    border: 2px dashed black; */
+}
+
+.login button{
+    background-color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
 }
 
 /* regole parte di download */
 
 .container-download{
-    background-color: blue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    border: none;
+    /* background-position: center;
+    background-repeat: no-repeat; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    /* align-items: center; */
     /* DEBUG */
-    height: 400px;
-    width: 100%;
 }
 
 #download{
-    background-color: rgb(227, 107, 241);
+    /* background-color: rgb(227, 107, 241); */
     display: flex;
+    flex-direction: column;
+    align-items: center;
     /* DEBUG */
-    height: 80%;
+    /* height: 80%;
     width: 50%;
-    border: 2px dashed black;
+    border: 2px dashed black; */
 }
+
+#download h1{
+    font-size: 70px;
+    color: white;
+    padding-bottom: 50px;
+    margin-top: 150px;
+}
+
+#download p{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    line-height: 37px;
+    margin-bottom: 30px;
+}
+
+.contenitore-bottoni{
+    padding-bottom: 150px;
+}
+
+.bottone-mac{
+    margin: 0px 20px;
+    border-radius: 33px;
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 17px;
+    font-size: 19px;
+}
+
+.bottone-browser{
+    margin: 0px 20px;
+    border-radius: 33px;
+    border: none;
+    background-color: rgb(35 41 45);
+    color: white;
+    padding: 17px;
+    font-size: 19px;    
+}
+
 
 /* regole main 1 e 3 parte di testo*/
 .container-text1{
