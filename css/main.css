@@ -173,11 +173,17 @@
     margin-bottom: 150px;
 }
 
+.contenuto-grande-3{
+    margin-right: 150px ;
+    margin-bottom: 200px;
+    padding-top: 220px;
+}
+
 
 /* regole main 2 parte di testo*/
 .container-text2{
-    padding: 100px;
     background-color: rgb(206, 206, 206);
+    padding-left: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
