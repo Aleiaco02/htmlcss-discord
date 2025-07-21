@@ -176,13 +176,19 @@
 
 /* regole main 2 parte di testo*/
 .container-text2{
-    background-color: rgb(141, 141, 141);
+    padding: 100px;
+    background-color: rgb(206, 206, 206);
     display: flex;
     justify-content: center;
     align-items: center;
-    /* DEBUG */
-    height: 400px;
-    width: 100%;
+}
+
+.container-text2 .contenuto-piccolo{
+    margin-right: 150px;
+}
+
+.container-text2 .contenuto-grande{
+padding-top: 180px; 
 }
 
 /* regole main 4 parte di testo */
