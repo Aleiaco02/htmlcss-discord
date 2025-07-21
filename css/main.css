@@ -1,0 +1,208 @@
+/* regole generali */
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0px;
+    font-size: 18px;
+    color: black;
+}
+
+/* regole header parte 3 colonne */
+.container-nav{
+    background-color: rgb(142, 201, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* DEBUG */
+    height: 65px;
+}
+
+.logo{
+    background-color: orange;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 250px;
+    padding-left: 15px;
+    /* DEBUG */
+    height: 70%;
+    width: 17%;
+    border: 2px dashed black;
+}
+
+
+.link{
+    background-color: orange;
+    border: 2px dashed black;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* DEBUG */
+    height: 70%;
+    width: 50%;
+}
+
+.link li a{
+    padding: 15px;
+    text-decoration: none;
+}
+
+.login{
+    background-color: orange;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 250px;
+    padding-right: 15px;
+    /* DEBUG */
+    height: 70%;
+    width: 17%;
+    border: 2px dashed black;
+}
+
+/* regole parte di download */
+
+.container-download{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* DEBUG */
+    height: 400px;
+    width: 100%;
+}
+
+#download{
+    background-color: rgb(227, 107, 241);
+    display: flex;
+    /* DEBUG */
+    height: 80%;
+    width: 50%;
+    border: 2px dashed black;
+}
+
+/* regole main 1 e 3 parte di testo*/
+.container-text1{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* DEBUG */
+    height: 400px;
+    width: 100%;
+}
+
+.contenuto-grande{
+    background-color: rgb(18, 111, 250);
+    /* DEBUG */
+    height: 80%;
+    width: 35%;
+    border: 2px dashed black;
+
+}
+
+.contenuto-piccolo{
+    background-color: rgb(243, 196, 246);
+    /* DEBUG */
+    height: 80%;
+    width: 25%;
+    border: 2px dashed black;
+}
+
+/* regole main 2 parte di testo*/
+.container-text2{
+    background-color: rgb(141, 141, 141);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* DEBUG */
+    height: 400px;
+    width: 100%;
+}
+
+/* regole main 4 parte di testo */
+.container-text4{
+    background-color: rgb(141, 141, 141);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* DEBUG */
+    height: 750px;
+    width: 100%;
+}
+
+.contenuto-unico{
+    background-color: rgb(9, 122, 1);
+    /* DEBUG */
+    height: 90%;
+    width: 70%;
+    border: 2px dashed black;
+}
+
+/* regole footer parte info */
+.container-footer-info{
+    background-color: rgb(50, 49, 49);
+    display: flex;
+    justify-content: center;
+    /* DEBUG */
+    height: 400px;
+    width: 100%;
+}
+
+#info-grande{
+    background-color: rgb(255, 133, 133);
+    margin-top: 10px;
+    /* DEBUG */
+    height: 90%;
+    width: 22%;
+    border: 1px dashed black;
+}
+
+.info-piccole{
+    background-color: rgb(98, 247, 240);
+    margin-top: 10px;
+    /* DEBUG */
+    height: 90%;
+    width: 12%;
+    border: 1px dashed rgb(239, 239, 239);
+}
+
+/* regole footer parte registrazione */
+.container-footer-registrati{
+    background-color: rgb(50, 49, 49);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    /* DEBUG */
+    width: 100%;
+    height: 70px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.logo-registrati{
+    background-color: rgb(46, 247, 180);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* DEBUG */
+    height: 80%;
+    width: 70%;
+}
+
+#logo-2{
+    background-color: rgb(249, 126, 126);
+    padding-left: 10px;
+    /* DEBUG */
+    border: 2px dashed black;
+    width: 6%;
+}
+
+#registrati{
+    background-color: rgb(249, 126, 126);
+    font-size: 16px;
+    /* DEBUG */
+    border: 2px dashed black;
+    width: 7%;
+} 
