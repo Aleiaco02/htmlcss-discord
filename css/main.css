@@ -286,12 +286,13 @@ h2{
   height: 1px;
   background-color: #ffffff20;
   margin:30px 0;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .container-footer-registrati{
     background-color: rgb(35 39 42);
     padding: 20px 300px; 
+    padding-bottom: 40px;
 }
 
 .logo-registrati{
